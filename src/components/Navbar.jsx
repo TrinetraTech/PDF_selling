@@ -1,7 +1,6 @@
 import NavLinks from "./Navlinks";
 import SearchBar from "./SearchBar";
 import LoginSignup from "./LoginSignup";
-import CartIcon from "./CartIcon";
 import { useState } from "react";
 
 function Navbar() {
@@ -28,7 +27,6 @@ function Navbar() {
           <div className="hidden md:flex items-center space-x-4">
             <SearchBar />
             <LoginSignup />
-            <CartIcon />
           </div>
 
           {/* Mobile Menu Button */}
