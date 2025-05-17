@@ -38,9 +38,44 @@ To enhance code quality in production apps:
 ---
 
 ## 📁 Project Structure
-<pre> ### 📁 Project Structure ``` pdf-store/ ├── public/ │ └── index.html │ ├── src/ │ ├── assets/ # Images, icons, logos │ ├── components/ # Reusable UI components │ │ ├── Navbar.jsx │ │ ├── Footer.jsx │ │ └── PDFCard.jsx │ │ │ ├── pages/ # Page-level components │ │ ├── Home.jsx │ │ ├── PDFs.jsx │ │ ├── PDFDetail.jsx │ │ ├── Cart.jsx │ │ ├── Checkout.jsx │ │ └── LoginRegister.jsx │ │ │ ├── context/ # Context API for state management │ │ └── AuthContext.jsx │ │ │ ├── services/ # API calls to backend │ │ ├── authService.js │ │ ├── pdfService.js │ │ └── paymentService.js │ │ │ ├── utils/ # Utility functions │ ├── App.js # App entry point with routes │ ├── main.jsx # ReactDOM render │ └── index.css # Global styles │ ├── tailwind.config.js # Tailwind setup (if used) ├── package.json └── README.md ``` </pre>
 
----
+```
+pdf-store/
+├── public/
+│   └── index.html
+│
+├── src/
+│   ├── assets/               # Images, icons, logos
+│   ├── components/           # Reusable UI components
+│   │   ├── Navbar.jsx
+│   │   ├── Footer.jsx
+│   │   └── PDFCard.jsx
+│   │
+│   ├── pages/                # Page-level components
+│   │   ├── Home.jsx
+│   │   ├── PDFs.jsx
+│   │   ├── PDFDetail.jsx
+│   │   ├── Cart.jsx
+│   │   ├── Checkout.jsx
+│   │   └── LoginRegister.jsx
+│   │
+│   ├── context/              # Context API for state
+│   │   └── AuthContext.jsx
+│   │
+│   ├── services/             # Backend API functions
+│   │   ├── authService.js
+│   │   ├── pdfService.js
+│   │   └── paymentService.js
+│   │
+│   ├── utils/                # Utility functions
+│   ├── App.js                # App entry point with routes
+│   ├── main.jsx              # ReactDOM render
+│   └── index.css             # Global styles
+│
+├── tailwind.config.js        # Tailwind setup
+├── package.json
+└── README.md
+```
 
 ## 🛠️ Getting Started
 
