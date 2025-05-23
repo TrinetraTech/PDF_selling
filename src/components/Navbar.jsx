@@ -4,17 +4,16 @@ import LoginSignup from "./LoginSignup";
 import { useState } from "react";
 
 function Navbar() {
-
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="bg-white shadow-sm ">
+    <header className="bg-white shadow-sm fixed w-full top-0 z-50">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center">
             <a href="#" className="text-xl font-bold text-neutral-900">
-              PDF Notes
+              NotesHub
             </a>
           </div>
 
