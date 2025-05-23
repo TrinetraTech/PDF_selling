@@ -81,7 +81,7 @@ const Footer = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
-                123 Education St,<br /> 
+                123 Education St,<br />
                 Knowledge City, CA 90210
               </li>
             </ul>
@@ -101,13 +101,14 @@ const Footer = () => {
         <div className="border-t border-gray-800 my-6"></div>
 
         {/* Bottom Footer */}
-        <div className="flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-500 text-sm mb-4 md:mb-0">© 2023 NoteHub. All rights reserved.</p>
-          <div className="flex space-x-6">
+        <div className="flex flex-col md:flex-row justify-between items-center py-4 px-4 md:px-8">
+          <p className="text-gray-500 text-sm mb-4 md:mb-0">© 2025 NoteHub. All rights reserved.</p>
+          <div className="flex space-x-6 mb-4 md:mb-0">
             <a href="#" className="text-gray-500 hover:text-white text-sm transition">Privacy Policy</a>
             <a href="#" className="text-gray-500 hover:text-white text-sm transition">Terms of Service</a>
             <a href="#" className="text-gray-500 hover:text-white text-sm transition">Cookie Policy</a>
           </div>
+          <p className="text-gray-500 text-sm">@Design And Developed By <a href="https://trinetr.tech" target='_blank' className="hover:text-white transition">Trinetra Tech</a></p>
         </div>
       </div>
     </footer>
